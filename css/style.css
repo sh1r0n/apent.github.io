@@ -1,0 +1,145 @@
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 41pt;
+	color: black;
+	margin: auto;
+	text-align: center;
+	line-height: 90pt;
+
+
+	
+}
+
+html, body { 
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+
+.mareky {
+	width: 600px;
+	margin: auto;
+	
+}
+
+.Header {
+	background-color: white;
+	height: 90pt;
+	
+}
+
+.footer {
+	height: 90pt;
+	bottom: 0;
+	position: absolute;
+}
+
+.footer li {
+	display: inline-block;
+	padding: 0;
+	height: 90pt;
+}
+
+.footer ul {
+	height: 90pt;
+}
+
+.navigation {
+	background-color: #E35C46;
+	width: 12.5%;
+	height: 1000pt;
+	margin: 0 auto;
+	float: left;
+	
+}
+
+.content {
+	height: 300pt;
+	background-color: white;
+	width: 87.5%;
+	margin: auto;
+	text-align: center;
+}
+
+.timer {
+	height: 200pt;
+	width: 88.6%;
+	margin: auto;
+	background-color: white;
+	box-align: center;
+	text-align: center;
+	
+}
+
+h2 {
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+  font-size: 38pt;
+  margin-top: 250px;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+	50% {
+    opacity: 0;
+  }
+}
+
+#startebro {
+	cursor: pointer;
+    border: none;
+    margin: 20px 0px 0px;
+    padding: 0px 12px;
+    border-radius: 4px;
+    box-shadow: #5C251C 3px 6px 0px;
+    font-size: 22px;
+    height: 55px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    background-color: #E35C46;
+    transition: color 0.5s ease-in-out 0s;
+	
+}
+
+.countdown {
+	margin: auto;
+	
+}
+
+
+
+ul {
+	margin:  auto;
+	padding: 0;
+}
+
+
